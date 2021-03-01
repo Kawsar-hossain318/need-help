@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    background-color: #0C2B4B;
+}
+.logo{
+    text-align: right;
+    clip-path: polygon(0% 0%, 100% 0%, 94% 100%, 0% 100%);
+}
+.menu-section{
+
+}
+.menu-section ul {
+    margin-top: 27px;
+    position: relative;
+}
+.menu-section ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu-section ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+.menu-section ul li a:hover{
+    border-bottom: 2px solid #DC3545;
+}
+.menu-section ul li ul{
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 300px;
+    left: 172px;
+    top: 15%;
+    transition: all 1s;
+    transform: scalex(0);
+    transform-origin: bottom left;
+}
+.menu-section ul li ul li{
+    display: block;
+    background-color: #DC3545;
+    text-align: justify;
+    padding: 7px 16px;
+}
+.menu-section ul li ul li a{
+    font-size: 12px;
+    font-weight: 600;
+}
+.menu-section ul li ul li a:hover{
+    border-bottom: 2px solid #0C2B4B;
+}
+.menu-section ul li:hover >a{
+    color: white;
+}
+.menu-section ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+}
+.menu-section ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform:scalex(1);
+}
+.icon-section{
+
+}
+.icon-menu{
+
+}
+.icon-menu ul{
+    margin-top: 27px;
+}
+.icon-menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.icon-menu ul li a{
+    padding: 1px 10px;
+    color: white;
+    transition: all 1s;
+}
+.icon-menu ul li a:hover{
+    color: #DC3545;
+}
+.icon-menu .dash{
+    color: gray;
+}
+.icon-menu ul li:first-child{
+    margin-right: -8px;
+}
+.first-button{
+    margin-top: 27px;
+    margin-left: -35px;
+}
+.first-button a{
+    text-decoration: none;
+    padding: 15px 35px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+.first-button a:hover {
+    color: #0C2B4B;
+    background-color: #DC3545;
+    border-color: #b02a37;
+}
+.two{
+    background-image: url(img/hero/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.text{
+    color: white;
+}
+.text h1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+.text h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.button-2{
+    background-color: #DC3545;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-weight: 700;
+    float: right;
+    transition: all 0.5s;
+
+}
+.button-2:hover{
+    color:#0C2B4B;
+}
+.button-3{
+    background-color: #0C2B4B;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-weight: 700;
+    float: left;
+    transition: all 0.5s;
+}
+.button-3:hover{
+    color:#DC3545;
+}
+.content-box{
+}
+.content-text{
+    margin-top: 15px;
+}
+.content-text p{
+    color:black;
+    font-weight: 550;
+    margin-bottom: 26px;
+    text-align: justify;
+}
+.content-text h1{
+    color: #111111;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 22px;
+}
+.content-text .colorful{
+    color: #DC3545;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.box1{
+    background-color: #0C2B4B;
+    padding:35px;
+    margin-top: 30px;
+}
+.box1 h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+}
+.box1 img{
+
+}
+/* .seconditem{
+    margin-top: 105px;
+} */
+.box2 {
+    background-color: #0C2B4B;
+    padding: 35px;
+    margin-top: 140px;
+}
+.box2 h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+}
+.video img{
+    margin-left: -28px;
+}
+.video-sec-content{
+    
+}
+.colorful{
+    text-transform: uppercase;
+    color: #DC3545;
+    font-weight: 600;
+    margin-top: 20px;
+    margin: 60px 0px;
+    padding-top: 20px;
+}
+.video-sec-content h1{
+    color: #111111;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: -55px 55px;
+}
+.video-sec-content p{
+    color: black;
+    margin-top: 70px;
+    margin-left: 55px;
+    font-weight: 500;
+}
+.video-sec-content .button-3{
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.form-text{
+    text-align: center;
+}
+.form-text p{
+    color: #DC3545;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.form-text h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 36px;
+    font-style: italic;
+    margin: -12px;
+    margin-bottom: 30px;
+}
+.form{
+    text-align: center;
+}
+.form input , select{
+    width: 30%;
+    margin: 1.4%;
+    padding: 1%;
+}
+.form .button-4{
+    background-color: #0C2B4B;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-weight: 700;
+    transition: all 0.5s;
+    width: 16%;
+    border: none;
+    transition: all 0.5s;
+}
+.form .button-4:hover{
+    color: crimson;
+}
+.fiveth-sec{
+    background-color: #F5F5F5;
+    padding-top: 250px;
+}
