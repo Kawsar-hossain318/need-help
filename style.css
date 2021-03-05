@@ -166,6 +166,7 @@
 .button-3:hover{
     color:#DC3545;
 }
+
 .content-box{
 }
 .content-text{
@@ -173,7 +174,8 @@
 }
 .content-text p{
     color:black;
-    font-weight: 550;
+    font-size: 15px;
+    font-weight: 400;
     margin-bottom: 26px;
     text-align: justify;
 }
@@ -182,6 +184,7 @@
     font-weight: 700;
     font-style: italic;
     margin-bottom: 22px;
+ 
 }
 .content-text .colorful{
     color: #DC3545;
@@ -192,6 +195,7 @@
     background-color: #0C2B4B;
     padding:35px;
     margin-top: 30px;
+    width: 105%;
 }
 .box1 h2{
     font-size: 20px;
@@ -209,6 +213,7 @@
     background-color: #0C2B4B;
     padding: 35px;
     margin-top: 140px;
+    width: 105%;
 }
 .box2 h2{
     font-size: 20px;
@@ -216,11 +221,9 @@
     color: white;
     margin-top: 20px;
 }
-.video img{
-    margin-left: -28px;
-}
 .video-sec-content{
-    
+    margin-left: -42px;
+    background-color: white;
 }
 .colorful{
     text-transform: uppercase;
@@ -283,11 +286,162 @@
     width: 16%;
     border: none;
     transition: all 0.5s;
+    margin-bottom: 60px;
 }
 .form .button-4:hover{
     color: crimson;
 }
+
 .fiveth-sec{
     background-color: #F5F5F5;
-    padding-top: 250px;
+    padding-top: 330px;
+    width: 100%;
+    margin-top: -240px;
+    position:relative;
+    z-index: -1;
+    clip-path: polygon(50% 0, 100% 21%, 100% 100%, 50% 100%, 0 100%, 0% 21%);
 }
+.sixth-sec{
+    background-image: url(img/pricing-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+
+}
+.sixth-sec p{
+    color: #DC3545;
+    font-weight: 600;
+}
+.sixth-sec h1{
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+.box3{
+    background: #0C2B4B61;
+    height: 560px;
+    width: 360px;
+    transition: all 0.5s;
+
+}
+.box3:hover{
+    background: #0C2B4B;
+}
+.box3 h4{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+.box3 h1{
+    color: #DC3545;
+    text-align: center;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+.box3 h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.box3 ul{
+    text-align: center;
+    margin-top: 20px;
+}
+.box3 ul li{
+    list-style: none;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.box3 ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.box3 .button-3 {
+    background-color: #0C2B4B;
+    text-decoration: none;
+    padding: 14px 90px;
+    color: white;
+    font-weight: 600;
+    float: left;
+    transition: all 0.5s;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-bottom: 130px;
+}
+.box3:hover .button-3{
+    background:#DC3545;
+    
+}
+.seventh-sec{
+    
+}
+.seventh-sec p{
+    color: #DC3545;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.seventh-sec h1{
+    color: BLACK;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: -10px;
+}
+.seventh-sec .button-3{
+
+}
+.instructors{
+    width: 31%;
+    padding: 10px;
+    display: flex;
+
+}
+.single-instractors{
+    /* width: 555px;
+    height: 232px; */
+    border: 1px solid #e1e1e1;
+    /* margin-bottom:10px; */
+    display: flex;
+    padding: 40px;
+}
+.instructors-img{
+
+}
+.instructor-content{
+
+}
+.instructor-content h3{
+    font-weight: 600;
+    color: black;
+}
+.instructor-icon ul{
+    padding-left: 0px;
+    margin-left: -8px;
+}
+
+.instructor-icon ul li{
+    display: inline-block;
+    padding: 1px 0px;
+}
+.instructor-icon ul li a{
+    color: black;
+    padding: 1px 10px;
+}
+hr {
+        color: white;
+        size: 10px;
+        padding: 0px -144px;
+        margin: 0px 30px;
+        margin-left: 30px;
+}
+
